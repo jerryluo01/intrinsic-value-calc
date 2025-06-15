@@ -1,2 +1,2 @@
-# prac_proj
-Practice project
+# intrinsic_value_calc
+Intrinsic Value Calculator
