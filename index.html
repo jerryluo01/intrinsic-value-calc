@@ -14,26 +14,28 @@
                 <li><a href="">Dashboard</a></li>
                 <li><a href="">Stock Screener</a></li>
             </ul>
-            <button class="sign-up">Sign Up</button>
-            <button class="log-in">Log In</button>
+            <button class="sign-up" type="button">Sign Up</button>
+            <button class="log-in" type="button">Log In</button>
         </div>
         <div class="hero-cont">
             <div class="hero">
                 <div class="search">
                     <label class="tick" for="tick">Enter ticker</label>
                 </div>
-                <input type="text" id="tick" name="tick" placeholder="ex: NVDA" pattern=".{3,5}" required>
-                <button class="search-button">Search</button>
+                <form method="get" action="/results">
+                    <input type="text" id="tick" name="tick" placeholder="ex: NVDA" pattern=".{3,5}" required>
+                    <button class="search-button" type="submit">Search</button>
+                </form>
                 <div class="picks-cont">
                     <p class="picks">Quick Picks:</p>
-                    <button class="pick">1</button>
-                    <button class="pick">2</button>
-                    <button class="pick">3</button>
-                    <button class="pick">4</button>
-                    <button class="pick">5</button>
-                    <button class="pick">6</button>
-                    <button class="pick">7</button>
-                    <button class="pick">8</button>
+                    <button class="pick" type="button">1</button>
+                    <button class="pick" type="button">2</button>
+                    <button class="pick" type="button">3</button>
+                    <button class="pick" type="button">4</button>
+                    <button class="pick" type="button">5</button>
+                    <button class="pick" type="button">6</button>
+                    <button class="pick" type="button">7</button>
+                    <button class="pick" type="button">8</button>
                 </div>
             </div>
         </div>
