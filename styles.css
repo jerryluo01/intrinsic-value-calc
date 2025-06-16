@@ -41,7 +41,7 @@ ul {
     font-size: 15px;
 }
 
-.tick {
+.ticker {
     margin-bottom: 0;
     font-size: 55px;
     font-weight: 600;
@@ -100,7 +100,7 @@ input {
     
 }
 
-#tick {
+#ticker {
     margin-bottom: 8px;
 }
 
