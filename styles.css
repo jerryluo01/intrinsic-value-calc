@@ -8,9 +8,12 @@ ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
-    margin-right: auto;
     font-size: 15px;
 
+}
+
+nav {
+    margin-right: auto;
 }
 
 .header {
@@ -18,17 +21,17 @@ ul {
     background-color: #1F2937;
     color: white;
     padding-left: 10px;
-    align-items: first baseline;
+    align-items: baseline;
     margin-bottom: 210px;
 }
 
 .hero-cont {
     color: white;
     background-color: #1F2937;
-    border: #1F2937 solid;
     padding: 50px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .search-button {
@@ -42,7 +45,6 @@ ul {
 }
 
 .ticker {
-    margin-bottom: 0;
     font-size: 55px;
     font-weight: 600;
     margin: 10px auto;
@@ -68,16 +70,15 @@ p {
     border-radius: 12px;
     height: 30px;
     margin: 8px;
+    border: white solid 2px;
 }
 
 .log-in {
     background-color: #1F2937;
-    border: white solid 2px;
     color: white;
 }
 
 .sign-up {
-    border: white solid 2px;
     color: #1F2937;
 }
 
@@ -87,8 +88,9 @@ input {
     padding: 4px 10px;
     border-radius: 5px;
     border: 0px;
-    width: 700px;
+    width: 80%;
     height: 30px;
+    min-width: 250px;
     font-size: large;
     text-transform: uppercase;
 }
