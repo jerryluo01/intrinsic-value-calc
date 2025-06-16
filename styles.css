@@ -30,7 +30,6 @@ nav {
     background-color: #1F2937;
     padding: 50px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -138,3 +137,6 @@ button {
     cursor: pointer;
 }
 
+.stocks {
+    margin-left: 10%;
+}

@@ -25,20 +25,22 @@
             <div class="search">
                 <label class="ticker" for="ticker">Enter ticker</label>
             </div>
-            <form method="get" action="/results">
-                <input type="text" id="ticker" name="ticker" placeholder="ex: NVDA" pattern=".{3,5}" maxlength="5" required>
-                <button class="search-button" type="submit">Search</button>
-            </form>
-            <div class="picks-cont">
-                <p class="picks">Quick Picks:</p>
-                <button class="pick" type="button">1</button>
-                <button class="pick" type="button">2</button>
-                <button class="pick" type="button">3</button>
-                <button class="pick" type="button">4</button>
-                <button class="pick" type="button">5</button>
-                <button class="pick" type="button">6</button>
-                <button class="pick" type="button">7</button>
-                <button class="pick" type="button">8</button>
+            <div class="stocks">
+                <form method="get" action="/results">
+                    <input type="text" id="ticker" name="ticker" placeholder="ex: NVDA" pattern=".{3,5}" maxlength="5" required>
+                    <button class="search-button" type="submit">Search</button>
+                </form>
+                <div class="picks-cont">
+                    <p class="picks">Quick Picks:</p>
+                    <button class="pick" type="button">1</button>
+                    <button class="pick" type="button">2</button>
+                    <button class="pick" type="button">3</button>
+                    <button class="pick" type="button">4</button>
+                    <button class="pick" type="button">5</button>
+                    <button class="pick" type="button">6</button>
+                    <button class="pick" type="button">7</button>
+                    <button class="pick" type="button">8</button>
+                </div>
             </div>
         </div>
     </body>
